@@ -117,14 +117,21 @@ p {
 /* ================ task 2 ========================= */
 .out-2 {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* ================ task 3 ========================= */
 .out-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* ================ task 4 ========================= */
 .out-4 {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* ================ task 5 ========================= */
