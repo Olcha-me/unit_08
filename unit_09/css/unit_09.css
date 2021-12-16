@@ -189,7 +189,7 @@ p {
 .out-2 aside {
     grid-area: aside;
 }
-.out-2 aside-2 {
+.out-2 .aside-2 {
     grid-area: aside-2;
 }
 .out-2 footer {
@@ -197,7 +197,37 @@ p {
  }
 
 /* =============== task 3 ============================= */
-
+.out-3 {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "news-1 news-2"
+    "news-3 news-4"
+    "footer footer";
+    grid-gap: 5px;
+    margin: 0;
+    /* height: 100vh; */
+    grid-template-rows: 50px 200px 200px 50px;
+    grid-template-columns: 50% 50%;
+}
+.out-3 header {
+    grid-area: header;
+}
+.out-3 .news-1 {
+    grid-area: news-1;
+}
+.out-3 .news-2 {
+    grid-area: news-2;
+}
+.out-3 .news-3 {
+    grid-area: news-3;
+}
+.out-3 .news-4 {
+    grid-area: news-4;
+}
+.out-3 footer {
+    grid-area: footer;
+ }
 /* =============== task 4 ============================= */
 
 /* =============== task 5 ============================= */
